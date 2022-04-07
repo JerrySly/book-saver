@@ -1,0 +1,9 @@
+Main - #00C618	
+Second - #FF8300
+Third - #C7007D
+Main dark - #008110
+Main light - #66E275
+Second dark - #A65500
+Second light - #FFBB73
+Third dark - #810051
+Third light - #E366B5	
