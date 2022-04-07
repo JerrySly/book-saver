@@ -15,7 +15,9 @@
           <td>{{ book.name }}</td>
           <td>{{ book.author }}</td>
           <td><tag-block :tag="getTag(book.tagId)" /></td>
-          <td>{{ getStatus(book.statusId).name }}</td>
+          <td>
+            <status-block :status="getStatus(book.statusId)"></status-block>
+          </td>
           <td>
             <icon-base :height="25" :width="25">
               <path :d="constants.edit"></path>

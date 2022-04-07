@@ -11,6 +11,6 @@ export class Book {
     }
 }
 export default [
-    new Book(0, "Test1", "Author1", "0", "0"),
-    new Book(1, "Test2", "Author2", "1", "1"),
+    new Book(0, "Преступление и наказание", "Достоевский И.В.", "0", "0"),
+    new Book(1, "Война и мир", "Толстой Л.В.", "1", "1"),
 ];
