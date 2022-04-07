@@ -2,7 +2,7 @@
   <div>
     <table id="book-table">
       <thead class="head-table">
-        <th>Id</th>
+        <th>Номер</th>
         <th>Имя</th>
         <th>Автор</th>
         <th>Теги</th>
@@ -49,16 +49,16 @@ export default {
 <style></style>
 <style scoped>
 .head-table th {
-  padding-bottom: 10px !important;
+  padding: 10px 10px 10px 10px !important;
   color: white;
 }
 thead {
-  background-color: black;
+  background-color: rgb(68, 167, 55);
 }
 
 thead th:nth-child(1) {
   border-top-left-radius: 10px !important;
-  width: 5%;
+  width: 7%;
 }
 thead th:nth-child(2) {
   width: 20%;
@@ -74,7 +74,7 @@ thead th:nth-child(5) {
 }
 thead th:nth-child(6) {
   border-top-right-radius: 10px !important;
-  width: 15%;
+  width: 13%;
 }
 #book-table {
   margin: auto;
@@ -89,6 +89,8 @@ td {
   margin: 0 !important;
 }
 tr {
+  font-weight: 400;
+  font-size: 20px;
   border-bottom: 4px solid rgb(66, 66, 66, 0.3);
 }
 tr:hover {

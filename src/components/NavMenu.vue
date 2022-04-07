@@ -61,10 +61,10 @@ export default {
   cursor: pointer;
   font-size: 24px;
   font-family: "IBM Plex Sans Arabic", sans-serif;
-  color: #e366b5;
 }
 .active {
   border-bottom: 3px solid green;
   transition: 0.1s;
+  color: green;
 }
 </style>
